@@ -18,10 +18,8 @@ BEGIN
         estado_remesa   VARCHAR(50)
     );
 
-    -- Truncate temp table
     TRUNCATE TABLE temp_remesas;
 
-    -- Bulk insert data into temp table
     BULK INSERT temp_remesas
     FROM 'remesas.csv'
     WITH (
