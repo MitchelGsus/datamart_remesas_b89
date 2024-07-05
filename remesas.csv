@@ -1,0 +1,4 @@
+id_remesa,id_merchant,id_remitente,id_beneficiario,id_moneda,id_fecha,monto,estado_remesa
+2000,500,613,725,2,179,813.54,Entregado
+2001,501,614,726,3,180,920.10,Entregado
+2002,502,615,727,1,181,1050.75,Entregado
