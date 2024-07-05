@@ -1,5 +1,3 @@
-SELECT * FROM temp_remesas
-drop PROCEDURE cargar_remesas
 CREATE PROCEDURE cargar_remesas
 AS
 BEGIN
